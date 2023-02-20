@@ -10,8 +10,9 @@
 </head>
 
 <body>
-    <section class="form">
-        <form class="formulario" id="form">
+    <section class="contenedor">
+        <div class="div-form">
+            <form class="formulario" id="form">
                 <img src="./assets/img/laptop.png" alt="" class="img"> 
             <h1>Laptop Gamer AMD</h1>
             <label for="cantidad">
@@ -25,10 +26,12 @@
                 <option value="negro">Negro</option>
             </select>
             <h1>Precio: 400000</h1>
-            <button id="btncalcular" type="submit"class="button">Calcular</button>
-        </form>      
+            <button id="btncalcular" type="submit"class="button">Calcular</button>  
+        </form>  
+        </div>   
+        <div class="print" id="print"></div> 
     </section>
-    <div class="print" id="print"></div>  
+      
     <script type="module" src="./dist/main.js"></script>
 </body>
 
